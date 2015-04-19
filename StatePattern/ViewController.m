@@ -18,15 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NormalModel *ios = [NormalModel new];
+    /* 状态模式中的状态都是可以重复赋值让对象恢复某种状态的，并不是一种算法来让对象进入到一种算法之后的结果，与策略模式有差异 */
+    
+    NormalModel *model = [NormalModel new];
     
     // 切换到状态1
-    [ios requestState:[StateOne new]];
+    [model requestState:[StateOne new]];
     
     // 切换到状态2
-    [ios requestState:[StateTwo new]];
-    
-    NSLog(@"%@", ios.name);
+    [model requestState:[StateTwo new]];
 }
 
 @end
