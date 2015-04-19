@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NormalModel.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NormalModel *ios = [NormalModel new];
+    
+    // 切换到状态1
+    [ios requestState:[StateOne new]];
+    
+    // 切换到状态2
+    [ios requestState:[StateTwo new]];
+    
+    NSLog(@"%@", ios.name);
 }
 
 @end

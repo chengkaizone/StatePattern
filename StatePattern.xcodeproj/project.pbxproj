@@ -14,6 +14,10 @@
 		10C26DC71AE335510050BE55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C26DC61AE335510050BE55 /* Images.xcassets */; };
 		10C26DCA1AE335510050BE55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C26DC81AE335510050BE55 /* LaunchScreen.xib */; };
 		10C26DD61AE335510050BE55 /* StatePatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C26DD51AE335510050BE55 /* StatePatternTests.m */; };
+		10C26DE11AE3357C0050BE55 /* StateType.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C26DE01AE3357C0050BE55 /* StateType.m */; };
+		10C26DE71AE335CA0050BE55 /* StateOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C26DE61AE335CA0050BE55 /* StateOne.m */; };
+		10C26DEA1AE335D20050BE55 /* StateTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C26DE91AE335D20050BE55 /* StateTwo.m */; };
+		10C26DED1AE336FF0050BE55 /* NormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C26DEC1AE336FE0050BE55 /* NormalModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		10C26DCF1AE335510050BE55 /* StatePatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatePatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C26DD41AE335510050BE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C26DD51AE335510050BE55 /* StatePatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatePatternTests.m; sourceTree = "<group>"; };
+		10C26DDF1AE3357C0050BE55 /* StateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateType.h; sourceTree = "<group>"; };
+		10C26DE01AE3357C0050BE55 /* StateType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateType.m; sourceTree = "<group>"; };
+		10C26DE51AE335CA0050BE55 /* StateOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateOne.h; sourceTree = "<group>"; };
+		10C26DE61AE335CA0050BE55 /* StateOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateOne.m; sourceTree = "<group>"; };
+		10C26DE81AE335D20050BE55 /* StateTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateTwo.h; sourceTree = "<group>"; };
+		10C26DE91AE335D20050BE55 /* StateTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTwo.m; sourceTree = "<group>"; };
+		10C26DEB1AE336FE0050BE55 /* NormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModel.h; sourceTree = "<group>"; };
+		10C26DEC1AE336FE0050BE55 /* NormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				10C26DBE1AE335510050BE55 /* AppDelegate.m */,
 				10C26DC01AE335510050BE55 /* ViewController.h */,
 				10C26DC11AE335510050BE55 /* ViewController.m */,
+				10C26DEB1AE336FE0050BE55 /* NormalModel.h */,
+				10C26DEC1AE336FE0050BE55 /* NormalModel.m */,
+				10C26DDF1AE3357C0050BE55 /* StateType.h */,
+				10C26DE01AE3357C0050BE55 /* StateType.m */,
+				10C26DE51AE335CA0050BE55 /* StateOne.h */,
+				10C26DE61AE335CA0050BE55 /* StateOne.m */,
+				10C26DE81AE335D20050BE55 /* StateTwo.h */,
+				10C26DE91AE335D20050BE55 /* StateTwo.m */,
 				10C26DC31AE335510050BE55 /* Main.storyboard */,
 				10C26DC61AE335510050BE55 /* Images.xcassets */,
 				10C26DC81AE335510050BE55 /* LaunchScreen.xib */,
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C26DEA1AE335D20050BE55 /* StateTwo.m in Sources */,
 				10C26DC21AE335510050BE55 /* ViewController.m in Sources */,
+				10C26DED1AE336FF0050BE55 /* NormalModel.m in Sources */,
+				10C26DE11AE3357C0050BE55 /* StateType.m in Sources */,
 				10C26DBF1AE335510050BE55 /* AppDelegate.m in Sources */,
+				10C26DE71AE335CA0050BE55 /* StateOne.m in Sources */,
 				10C26DBC1AE335510050BE55 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
